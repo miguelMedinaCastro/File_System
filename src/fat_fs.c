@@ -479,9 +479,6 @@ int fs_copy_out(Directory *dir, const char *fs_name, const char *host_path_in) {
 
     FileEntry *file = &dir->filesArrayReference->files[found];
 
-    // printf("DEBUG: Encontrou arquivo %s, tamanho %d, cluster inicial %d\n",
-           // file->file_name, file->file_size, file->start_cluster);
-
     struct stat st;
     char *host_path = NULL;
     if (stat(host_path_in, &st) == 0 && S_ISDIR(st.st_mode)) {
@@ -564,7 +561,6 @@ int fs_remove_file(Directory *dir, const char *fs_name) {
 
     if (dir->disk_cluster == superblock.dir_start) {
         memcpy(&directory_table, files, sizeof(Files));
-        // printf("DEBUG: directory_table atualizada após remover '%s'\n", fs_name);
     }
 
     if (dir_flush(dir) != 0) return -1;
