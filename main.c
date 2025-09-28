@@ -91,7 +91,6 @@ int main(void) {
             char *name = strtok(NULL, " ");
             if (name) {
                 if (fs_mkdir(fs->cwd, name) == 0) {
-                    // printf("Diretório '%s' criado com sucesso\n", name);
                     persist_all_changes(fs);
                 } else {
                     printf("Erro ao criar diretório '%s'\n", name);
@@ -205,7 +204,6 @@ int main(void) {
                 printf("Uso: touch <nome>\n");
             } else {
                 if (fs_create_empty_file(fs, name) == 0) {
-                    // printf("Arquivo '%s' criado com sucesso\n", name);
                     persist_all_changes(fs);
                 } else {
                     printf("Erro ao criar arquivo '%s'\n", name);
