@@ -1,6 +1,6 @@
 /**
  * @file      main.c
- * @author    Miguel Medina - 164437; Milena Bueno - 164430
+ * @author    Miguel Medina; Milena Bueno
  * @brief     FS FURGfs3
  * @version   0.1
  * @date      04-09-2025
