@@ -23,3 +23,30 @@ Basta rodar o binário disponibilizado no repositório:
 
 ```bash
 ./FURGfs3
+```
+## Comandos suportados
+
+O sistema de arquivos simula um terminal com os seguintes comandos:
+```bash
+touch <nome_arquivo> → cria um arquivo vazio dentro do FS.
+
+mkdir <nome_diretorio> → cria um diretório (inclusive dentro de outros diretórios).
+
+cd <nome_diretorio> → entra em um diretório.
+
+cd .. → retorna ao diretório anterior.
+
+ls → lista os arquivos e diretórios no diretório atual.
+
+space → mostra espaço total, espaço usado e espaço livre (em bytes).
+
+rm <nome> → remove arquivos ou diretórios.
+
+mv <arquivo> <novo_nome> → renomeia arquivos ou diretórios.
+
+copy_in <caminho_absoluto> <nome_no_FS> → copia um arquivo do seu PC para dentro do FS.
+
+copy_out <arquivo_FS> <caminho_diretorio_PC> → copia um arquivo do FS para o seu PC.
+
+exit → encerra o programa.
+```
