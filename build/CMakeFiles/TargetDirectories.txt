@@ -1,0 +1,3 @@
+/home/medina/Documents/estudando/C/file_system/FURGfs3/build/CMakeFiles/FURGfs3.dir
+/home/medina/Documents/estudando/C/file_system/FURGfs3/build/CMakeFiles/edit_cache.dir
+/home/medina/Documents/estudando/C/file_system/FURGfs3/build/CMakeFiles/rebuild_cache.dir

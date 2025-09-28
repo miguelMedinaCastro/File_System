@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/main.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/main.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/main.c",
+  "output": "CMakeFiles/FURGfs3.dir/main.c.o"
+},
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/src/show_everything.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/src/show_everything.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/src/show_everything.c",
+  "output": "CMakeFiles/FURGfs3.dir/src/show_everything.c.o"
+},
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/src/create_file.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/src/create_file.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/src/create_file.c",
+  "output": "CMakeFiles/FURGfs3.dir/src/create_file.c.o"
+},
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/src/init_file_system.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/src/init_file_system.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/src/init_file_system.c",
+  "output": "CMakeFiles/FURGfs3.dir/src/init_file_system.c.o"
+},
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/src/copy_content.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/src/copy_content.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/src/copy_content.c",
+  "output": "CMakeFiles/FURGfs3.dir/src/copy_content.c.o"
+},
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/src/rename_file.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/src/rename_file.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/src/rename_file.c",
+  "output": "CMakeFiles/FURGfs3.dir/src/rename_file.c.o"
+},
+{
+  "directory": "/home/medina/Documents/estudando/C/file_system/FURGfs3/build",
+  "command": "/usr/bin/gcc -I/home/medina/Documents/estudando/C/file_system/FURGfs3/include -Wall -Wextra -std=c11 -Wall -Wextra -std=c11 -O0 -g3 -o CMakeFiles/FURGfs3.dir/src/fat_fs.c.o -c /home/medina/Documents/estudando/C/file_system/FURGfs3/src/fat_fs.c",
+  "file": "/home/medina/Documents/estudando/C/file_system/FURGfs3/src/fat_fs.c",
+  "output": "CMakeFiles/FURGfs3.dir/src/fat_fs.c.o"
+}
+]
